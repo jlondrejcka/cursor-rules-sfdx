@@ -3,11 +3,6 @@ description: Guidelines for extracting rules from Salesforce DX documentation
 globs: 
 alwaysApply: false
 ---
----
-description: Guidelines for extracting rules from Salesforce DX documentation
-globs: 
-alwaysApply: false
----
 # Rule Extraction Process
 
 Based on a PDF provided by the user, use the structure of the PDF to create/update cursor rules in .mdc format. If the PDF is inaccessible or difficult to extract content from, leverage existing Salesforce DX documentation to create comprehensive rules.
@@ -112,4 +107,4 @@ For Chapter 3, we created rules for:
 - Environment Config and Variables
 - Source-Driven Development
 
-Each rule follows the structure outlined above and provides practical guidance for Salesforce DX developers.
+Each rule follows the structure outlined above and provides practical guidance for Salesforce DX developers. 
