@@ -49,3 +49,5 @@ out/
 
 # Salesforce source format artifacts
 package-lock.json 
+
+sfdx_dev.pdf
