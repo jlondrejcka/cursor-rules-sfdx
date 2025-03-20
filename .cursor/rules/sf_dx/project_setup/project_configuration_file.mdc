@@ -91,4 +91,4 @@ For package development, additional configuration is required:
 4. For multi-package projects, clearly organize package directories 
 
 ## Further Reading
-For detailed information, see the [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm)
+For detailed information, see the [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) 
