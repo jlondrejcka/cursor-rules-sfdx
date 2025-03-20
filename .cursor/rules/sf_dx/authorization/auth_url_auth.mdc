@@ -148,4 +148,4 @@ sf org login sfdx-url --sfdx-url-file authFile.txt --loglevel debug
 6. Use different auth URLs for different environments (dev, staging, prod)
 
 ## Further Reading
-For more information about SFDX Auth URL authentication, see the [Salesforce DX Developer Guide](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_sfdxurl.htm)
+For more information about SFDX Auth URL authentication, see the [Salesforce DX Developer Guide](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_sfdxurl.htm) 

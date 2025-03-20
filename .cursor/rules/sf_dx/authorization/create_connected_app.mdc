@@ -126,4 +126,4 @@ sf org login jwt --username user@example.com --jwt-key-file server.key --client-
 7. Implement session policies appropriate to your security requirements
 
 ## Further Reading
-For more information, see the [Salesforce Connected App Documentation](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_connected_app.htm)
+For more information, see the [Salesforce Connected App Documentation](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_connected_app.htm) 

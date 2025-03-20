@@ -170,4 +170,4 @@ sf org display --target-org MyOrg --verbose
 ```
 
 ## Further Reading
-For detailed information about Salesforce DX authentication, see the [Salesforce DX Developer Guide](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth.htm)
+For detailed information about Salesforce DX authentication, see the [Salesforce DX Developer Guide](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth.htm) 
