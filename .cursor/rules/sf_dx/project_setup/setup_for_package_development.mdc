@@ -113,4 +113,4 @@ To add a dependency on another package, modify the `sfdx-project.json`:
 - Uninstall package: `sf package uninstall`
 
 ## Further Reading
-For detailed information about package development, see the [Salesforce DX Developer Guide](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_dev2gp.htm) 
+For detailed information about package development, see the [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_dev2gp.htm) 

@@ -125,4 +125,4 @@ git push origin feature-branch
 7. Maintain a clean local workspace
 
 ## Further Reading
-For detailed information about source-driven development, see the [Salesforce DX Developer Guide](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_develop.htm) 
+For detailed information about source-driven development, see the [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_develop.htm) 

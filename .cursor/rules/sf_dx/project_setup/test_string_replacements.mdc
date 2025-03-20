@@ -3,11 +3,6 @@ description: How to test string replacements in Salesforce DX code before deploy
 globs: 
 alwaysApply: false
 ---
- ---
-description: How to test string replacements in Salesforce DX code before deploying
-globs: 
-alwaysApply: false
----
 # Test String Replacements
 
 ## Overview
@@ -256,4 +251,4 @@ For package version problems:
 3. Test package installation in a clean org
 
 ## Further Reading
-For more information about testing string replacements, see the [Salesforce DX Developer Guide](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_build_string_replace.htm)
+For more information about testing string replacements, see the [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_build_string_replace.htm) 
