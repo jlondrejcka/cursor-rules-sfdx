@@ -169,4 +169,4 @@ sf org refresh --target-org MyOrgAlias
 4. Audit Connected App usage in your Salesforce org
 
 ## Further Reading
-For more information about authorization in Salesforce DX, see the [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_view_info.htm)
+For more information about authorization in Salesforce DX, see the [Salesforce DX Developer Guide](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_view_info.htm)

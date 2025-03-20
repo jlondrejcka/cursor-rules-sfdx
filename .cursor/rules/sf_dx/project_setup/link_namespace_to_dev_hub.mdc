@@ -156,4 +156,4 @@ sf org unlink namespace --target-dev-hub DevHub --namespace YOUR_NAMESPACE
 5. **Naming Conventions**: Establish naming conventions that work well with namespace prefixes
 
 ## Further Reading
-For more information about linking namespaces to Dev Hub orgs, see the [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_dev2gp_namespace_registry.htm)
+For more information about linking namespaces to Dev Hub orgs, see the [Salesforce DX Developer Guide](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_dev2gp_namespace_registry.htm)

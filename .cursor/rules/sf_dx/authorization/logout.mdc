@@ -1,5 +1,5 @@
 ---
-description:  How to log out and remove authentication from Salesforce orgs
+description: How to log out and remove authentication from Salesforce orgs
 globs: 
 alwaysApply: false
 ---

@@ -122,4 +122,4 @@ sf org logout --all
 3. Check user permissions in Salesforce
 
 ## Further Reading
-For more information about Connected Apps and authentication, see the [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth.htm)
+For more information about Connected Apps and authentication, see the [Salesforce DX Developer Guide](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth.htm)

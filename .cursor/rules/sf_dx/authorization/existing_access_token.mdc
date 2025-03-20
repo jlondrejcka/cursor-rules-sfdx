@@ -115,4 +115,4 @@ For most scenarios, consider these alternatives:
 - SFDX Auth URL: `sf org login sfdx-url`
 
 ## Further Reading
-For more information about authentication methods, see the [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_access_token.htm)
+For more information about authentication methods, see the [Salesforce DX Developer Guide](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_access_token.htm)
