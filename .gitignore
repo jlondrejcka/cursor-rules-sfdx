@@ -1,0 +1,51 @@
+# Salesforce DX specific
+.sfdx/
+.sf/
+.localdevserver/
+.vscode/
+
+# Deployment artifacts
+deploy/
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Salesforce cache
+.sf/
+
+# MacOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IntelliJ IDEA / JetBrains specific
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# LWC compilation cache
+**/lwc/**/*.js.map
+
+# User-specific files
+*.sublime-project
+*.sublime-workspace
+
+# Salesforce source format artifacts
+package-lock.json 
