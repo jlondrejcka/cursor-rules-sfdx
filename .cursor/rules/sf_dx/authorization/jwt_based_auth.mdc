@@ -122,4 +122,4 @@ sf org login jwt --username user@example.com --jwt-key-file server.key --client-
 6. Use environment variables for sensitive information
 
 ## Further Reading
-For detailed information on JWT-based authentication, see the [Salesforce DX Developer Guide](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_jwt_flow.htm)
+For detailed information on JWT-based authentication, see the [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_jwt_flow.htm) 

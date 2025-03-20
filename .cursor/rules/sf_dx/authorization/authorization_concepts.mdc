@@ -96,4 +96,4 @@ export SFDX_AUDIENCE_URL=https://login.salesforce.com
 7. For local development, leverage the system keychain for secure storage
 
 ## Further Reading
-For detailed information about authorization in Salesforce DX, see the [Salesforce DX Developer Guide](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth.htm)
+For detailed information about authorization in Salesforce DX, see the [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth.htm) 

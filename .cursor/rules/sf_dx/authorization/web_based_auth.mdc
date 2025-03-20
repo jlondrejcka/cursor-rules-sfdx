@@ -103,4 +103,4 @@ sf org login web --instance-url https://login.salesforce.com --alias MyOrg --no-
 5. For automated processes, consider using JWT-based authentication instead
 
 ## Further Reading
-For more details on web-based authentication, see the [Salesforce DX Developer Guide](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_web_flow.htm)
+For more details on web-based authentication, see the [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_web_flow.htm) 
