@@ -1,0 +1,56 @@
+---
+description: How to resolve conflicts between your local project and Salesforce org
+globs: 
+alwaysApply: false
+---
+ ---
+description: How to resolve conflicts between your local project and Salesforce org
+globs: 
+alwaysApply: false
+---
+# Resolve Conflicts Between Your Local Project and Org
+
+## Overview
+When changes occur both locally and in your Salesforce org, conflicts can arise during deployment or retrieval. This rule explains how to identify and resolve these conflicts effectively.
+
+## Key Concepts
+- Conflicts occur when the same component is modified in both locations
+- Conflict resolution requires deciding which version to keep
+- Different conflict resolution strategies apply to different scenarios
+- Source tracking helps identify potential conflicts
+
+## Detailed Sections
+### Identifying Conflicts
+Learn how to detect when local and remote changes conflict with each other.
+
+### Types of Conflicts
+Understand the different types of conflicts that can occur and their implications.
+
+### Resolving Local vs. Remote Conflicts
+Strategies for deciding whether to keep local changes or remote changes.
+
+### Merge Strategies
+Techniques for merging changes when both versions contain valuable modifications.
+
+## Code Examples
+```bash
+# Check for potential conflicts before deployment
+sf project deploy preview -o your-org-alias
+
+# Force local changes to overwrite remote changes
+sf project deploy start -o your-org-alias --force-overwrite
+
+# Force retrieval of remote changes to overwrite local
+sf project retrieve start -o your-org-alias --force-overwrite
+```
+
+## Best Practices
+1. Always preview changes before deploying or retrieving to identify conflicts
+2. Use a diff tool to compare local and remote versions
+3. Communicate with team members when resolving conflicts in shared components
+4. Consider creating backups before resolving complex conflicts
+5. Use source control systems to help manage conflicts
+6. Document your conflict resolution decisions for future reference
+
+## Further Reading
+See the official Salesforce DX documentation for more details on conflict resolution strategies.
