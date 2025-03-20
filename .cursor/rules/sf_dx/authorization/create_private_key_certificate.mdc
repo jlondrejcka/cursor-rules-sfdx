@@ -1,5 +1,5 @@
 ---
-description: How to create a private key and self-signed digital certificate for JWT-based 
+description: How to create a private key and self-signed digital certificate for JWT-based authentication
 globs: 
 alwaysApply: false
 ---
@@ -117,4 +117,4 @@ openssl x509 -text -noout -in server.crt
 ```
 
 ## Further Reading
-For more information about certificates and JWT-based authentication, see the [Salesforce DX Developer Guide](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_key_and_cert.htm)
+For more information about certificates and JWT-based authentication, see the [Salesforce DX Developer Guide](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_key_and_cert.htm) 
