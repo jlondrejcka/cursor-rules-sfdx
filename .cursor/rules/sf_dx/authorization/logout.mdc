@@ -3,11 +3,6 @@ description: How to log out and remove authentication from Salesforce orgs
 globs: 
 alwaysApply: false
 ---
- ---
-description: How to log out and remove authentication from Salesforce orgs
-globs: 
-alwaysApply: false
----
 # Log Out of an Org
 
 ## Overview
@@ -151,4 +146,4 @@ sf org login jwt --username user@example.com --jwt-key-file server.key --client-
 ```
 
 ## Further Reading
-For more information about authentication and logout, see the [Salesforce DX Developer Guide](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_logout.htm)
+For more information about authentication and logout, see the [Salesforce DX Developer Guide](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_logout.htm) 

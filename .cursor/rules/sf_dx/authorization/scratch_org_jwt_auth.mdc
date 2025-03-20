@@ -3,11 +3,6 @@ description: How to authorize a Scratch Org using the JWT-based OAuth flow
 globs: 
 alwaysApply: false
 ---
- ---
-description: How to authorize a Scratch Org using the JWT-based OAuth flow
-globs: 
-alwaysApply: false
----
 # Authorize a Scratch Org Using the JWT Flow
 
 ## Overview
@@ -146,4 +141,4 @@ sf org login jwt --username test-xyz@example.com --jwt-key-file server.key --cli
 6. Consider using different Connected Apps for different environments/purposes
 
 ## Further Reading
-For more information about JWT-based authentication with scratch orgs, see the [Salesforce DX Developer Guide](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_jwt_flow.htm)
+For more information about JWT-based authentication with scratch orgs, see the [Salesforce DX Developer Guide](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_jwt_flow.htm) 

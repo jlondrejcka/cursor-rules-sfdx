@@ -3,11 +3,6 @@ description: How to view and manage authorization information for Salesforce org
 globs: 
 alwaysApply: false
 ---
- ---
-description: How to view and manage authorization information for Salesforce orgs
-globs: 
-alwaysApply: false
----
 # Authorization Information for an Org
 
 ## Overview
@@ -169,4 +164,4 @@ sf org refresh --target-org MyOrgAlias
 4. Audit Connected App usage in your Salesforce org
 
 ## Further Reading
-For more information about authorization in Salesforce DX, see the [Salesforce DX Developer Guide](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_view_info.htm)
+For more information about authorization in Salesforce DX, see the [Salesforce DX Developer Guide](mdc:https:/developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_view_info.htm) 
