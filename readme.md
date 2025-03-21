@@ -17,8 +17,8 @@ Create POCs quickly and efficiently with AI Coding tools that understand the Sal
 
 2. Clone the repository
    ```
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/jlondrejcka/cursor-rules-sfdx.git <my-sf-poc-name>
+   cd <my-sf-poc-name>
    ```
 
 3. Authorize an org
