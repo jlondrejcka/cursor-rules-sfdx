@@ -21,15 +21,35 @@ Create POCs quickly and efficiently with AI Coding tools that understand the Sal
    cd <my-sf-poc-name>
    ```
 
-3. Authorize an org
-   ```
-   sf org login web -a DevOrg
-   ```
+3. Authorize a Dev Hub Org
+   - Option 1: Ask agent to authorize your Dev Hub Org
+   - Option 2: Run CLI command
+     ```
+     sf org login web -a DevOrg
+     ```
 
-4. Push source to the org
-   ```
-   sf project deploy start
-   ```
+4. Create a new project
+   - Option 1: Ask agent to create a new project for you
+   - Option 2: Run CLI command
+     ```
+     sf project generate --name MyProject
+     ```
+
+5. Create a new scratch org
+   - Option 1: Ask agent to create a scratch org for you
+   - Option 2: Run CLI command
+     ```
+     sf org create scratch -f config/project-scratch-def.json -a MyScratchOrg
+     ```
+
+6. Explain to the agent the type of app you want to build, and have it assist you in prototyping
+
+7. Push source to the scratch org
+   - Option 1: Ask agent to deploy your project to the scratch org
+   - Option 2: Run CLI command
+     ```
+     sf project deploy start
+     ```
 
 ## Project Structure
 
