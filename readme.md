@@ -1,6 +1,8 @@
 # Salesforce DX Project
 
-This repository contains a Salesforce DX project cursor rules to assist Salesforce Developers in 'vibe-coding' with Salesforce. .
+This repository contains a Salesforce DX project cursor rules to assist Salesforce Developers in 'vibe-coding' with Salesforce.
+
+Create POCs quickly and efficiently with AI Coding tools that understand the Salesforce CLI and Dev Stack. 
 
 ## Prerequisites
 
