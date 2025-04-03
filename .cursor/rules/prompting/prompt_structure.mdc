@@ -4,7 +4,7 @@ globs:
 alwaysApply: false
 ---
 Scruture prompts based on the following format:
-1. Goaal
+1. Goal
 2. Return Format
 3. Warnings
 4. Context

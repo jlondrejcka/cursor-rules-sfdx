@@ -1,0 +1,16 @@
+{
+  "name": "cursor-rules-converter",
+  "version": "1.0.0",
+  "description": "Convert Cursor rules to shadcn-compatible JSON format",
+  "scripts": {
+    "convert": "ts-node scripts/convert-rules-to-shadcn.ts"
+  },
+  "dependencies": {
+    "yaml": "^2.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+} 
