@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+This is a Salesforce project leveraging the Salesforce CLI. 

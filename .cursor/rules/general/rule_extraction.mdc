@@ -1,0 +1,110 @@
+---
+description: Guidelines for extracting rules from Salesforce DX documentation
+globs: 
+alwaysApply: false
+---
+# Rule Extraction Process
+
+Based on a PDF provided by the user, use the structure of the PDF to create/update cursor rules in .mdc format. If the PDF is inaccessible or difficult to extract content from, leverage existing Salesforce DX documentation to create comprehensive rules.
+
+## Rule Repository Structure
+Chapters should follow the repo structure in the .cursor/rules/sf_dx as follows:
+Chapter 1: -> .cursor/rules/sf_dx/getting_started/
+Chapter 2: -> .cursor/rules/sf_dx/dev_hub/
+Chapter 3: -> .cursor/rules/sf_dx/project_setup/
+Chapter 4: -> .cursor/rules/sf_dx/authorization/
+Chapter 5: -> .cursor/rules/sf_dx/metadata_coverage/
+Chapter 6: -> .cursor/rules/sf_dx/scratch_orgs/
+Chapter 7: -> .cursor/rules/sf_dx/sandboxes/
+Chapter 8: -> .cursor/rules/sf_dx/track_changes/
+Chapter 9: -> .cursor/rules/sf_dx/work_with_data/
+Chapter 10: -> .cursor/rules/sf_dx/development/
+Chapter 11: -> .cursor/rules/sf_dx/build_and_release/
+Chapter 12: -> .cursor/rules/sf_dx/unlocked_packages/
+Chapter 13: -> .cursor/rules/sf_dx/continous_integration/
+Chapter 14: -> .cursor/rules/sf_dx/troubleshoot/
+Chapter 15: -> .cursor/rules/sf_dx/limiations/
+
+## Rule Files
+1. Create a new rule, or update existing rules, for each sub section in each chapter.
+2. Rules should be in their own file as follows:
+   - File Name: `section_title.mdc` (use snake_case)
+   - Rule type: Agent Requested
+   - Description: brief description on when to use the content of the rule
+   - Rule Body: content of the section in markdown format
+
+## Rule File Structure
+Each rule file should follow this structure:
+
+```markdown
+---
+description: Brief description of when to use this rule
+globs: 
+alwaysApply: false
+---
+# Title of the Rule
+
+## Overview
+A concise overview of what this rule covers.
+
+## Key Concepts/Features
+- Important point 1
+- Important point 2
+- Important point 3
+
+## Detailed Sections
+### Section 1
+Details about section 1
+
+### Section 2
+Details about section 2
+
+## Code Examples
+```bash
+# Example code
+command --flag value
+```
+
+## Best Practices
+1. Best practice 1
+2. Best practice 2
+3. Best practice 3
+
+## Further Reading
+Link to official documentation
+```
+
+## Extraction Approach
+
+When extracting rules from a PDF or documentation:
+
+1. **Analyze Chapter Structure**: Identify main sections and subsections in the chapter
+2. **Check Existing Rules**: Review any existing rules in the chapter directory
+3. **Create Rule Files**: For each significant topic, create a dedicated rule file
+4. **Organize Content**: Structure the content with clear headings and sections
+5. **Include Examples**: Add code examples where appropriate
+6. **Add Best Practices**: Include relevant best practices for the topic
+7. **Reference Sources**: Link to official documentation for further reading
+
+## Content Guidelines
+
+1. Use markdown formatting for readability
+2. Include code examples in appropriate code blocks
+3. Structure content with clear hierarchy (headings and subheadings)
+4. Focus on practical guidance over theoretical explanations
+5. Highlight command syntax and parameters
+6. Include common error scenarios and solutions when relevant
+7. Keep content concise but comprehensive
+
+## Example: Chapter 3 (Project Setup)
+
+For Chapter 3, we created rules for:
+- Creating Salesforce DX Projects
+- Excluding Source When Syncing
+- Project Configuration File
+- Source Format
+- Package Development Setup
+- Environment Config and Variables
+- Source-Driven Development
+
+Each rule follows the structure outlined above and provides practical guidance for Salesforce DX developers. 

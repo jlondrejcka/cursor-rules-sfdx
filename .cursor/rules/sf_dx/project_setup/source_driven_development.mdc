@@ -1,0 +1,128 @@
+---
+description: Understanding source-driven development concepts and workflows in Salesforce DX
+globs: 
+alwaysApply: false
+---
+# Source-Driven Development in Salesforce DX
+
+## Overview
+Source-driven development is a core concept in Salesforce DX that shifts the source of truth from the org to your version control system. This approach improves team collaboration, release management, and overall development process.
+
+## Key Concepts
+
+### 1. Version Control as Source of Truth
+- Your version control system (Git, etc.) becomes the definitive source of truth
+- Changes are pushed to orgs rather than pulled from them
+- Promotes better collaboration and change tracking
+
+### 2. Source Format
+- Salesforce DX uses a specific file-based format for metadata
+- Source is organized hierarchically by metadata type
+- Includes both code and metadata in text format
+
+### 3. Source Tracking
+- Salesforce DX tracks changes between your local project and scratch orgs
+- Helps identify what has changed locally vs. in the org
+- Facilitates selective deployment of changes
+
+## Source-Driven Workflow
+
+### Development Flow
+1. **Clone repository**: Start with existing code from version control
+2. **Create scratch org**: Provision a fresh org for development
+3. **Push source**: Deploy local code to the scratch org
+4. **Make changes**: Develop and test in the scratch org
+5. **Pull changes**: Retrieve org changes to local project
+6. **Commit changes**: Save to version control
+7. **Create pull request**: Request code review
+8. **Merge and deploy**: Integrate and deploy to higher environments
+
+### Command Sequence
+```bash
+# Clone repository
+git clone https://github.com/myuser/my-sfdc-project.git
+cd my-sfdc-project
+
+# Create scratch org
+sf org create scratch -f config/project-scratch-def.json -a DevOrg
+
+# Push source to scratch org
+sf project deploy start
+
+# Make changes in the org or locally
+
+# Pull changes from org to local project
+sf project retrieve start
+
+# Track changes
+sf project track
+
+# Commit changes
+git add .
+git commit -m "Feature implementation"
+git push origin feature-branch
+```
+
+## Managing Source
+
+### Pushing Source
+- Deploy local source to an org:
+  ```bash
+  sf project deploy start
+  ```
+- Deploy specific components:
+  ```bash
+  sf project deploy start --source-dir force-app/main/default/classes
+  ```
+
+### Retrieving Source
+- Pull changes from an org:
+  ```bash
+  sf project retrieve start
+  ```
+- Retrieve specific components:
+  ```bash
+  sf project retrieve start --source-path force-app/main/default/classes
+  ```
+
+### Source Tracking
+- View tracked changes:
+  ```bash
+  sf project track
+  ```
+- View source status:
+  ```bash
+  sf project deploy preview
+  ```
+
+## Common Challenges and Solutions
+
+### Conflicts
+- When both local files and org have different changes:
+  1. Pull changes: `sf project retrieve start`
+  2. Resolve conflicts manually
+  3. Push resolved changes: `sf project deploy start`
+
+### Large Metadata Sets
+- For large or complex orgs:
+  1. Use package development model
+  2. Break metadata into smaller modules
+  3. Use .forceignore to exclude unnecessary files
+
+### Metadata Coverage Gaps
+- When some metadata types aren't supported in source format:
+  1. Use workarounds for specific metadata types
+  2. Leverage Metadata API for unsupported types
+  3. Check Metadata Coverage report: `sf doc metadata coverage report --output-file ./coverage.csv`
+
+## Best Practices
+1. Commit early and often to version control
+2. Use feature branches for development
+3. Create a fresh scratch org for each major feature
+4. Implement continuous integration for automated testing
+5. Use meaningful commit messages
+6. Leverage .forceignore to exclude unnecessary files
+7. Maintain a clean local workspace
+
+## Further Reading
+For detailed information about source-driven development, see the [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_develop.htm) 

@@ -1,0 +1,33 @@
+---
+description: How a prompt should be structured
+globs: 
+alwaysApply: false
+---
+Scruture prompts based on the following format:
+1. Goal
+2. Return Format
+3. Warnings
+4. Context
+
+Here is an example: 
+
+<goal>
+I Want A Web Scraper That Retrieves Real-Time Stock Prices For A Given List Of Stock Ticker Symbols From A Reliable Financial Data Source.
+
+Each Stock Price Should Be Accurate, Up-To-Date, And Include Key Financial Metrics That Traders Care About.
+</goal>
+
+<return_format>
+For Each Stock, Return The Ticker Symbol As I'd Find It On A Major Exchange (E.G., NASDAQ, NYSE), Then Provide The Current Stock Price, Percentage Change From The Previous Closing Price, Daily High And Low, Trading Volume, And A Brief Summary Of The Stock's Recent Movement (E.G., Notable Gains/Losses, Trends, Or News Impact).
+
+
+Return The Top 10 Most Actively Traded Stocks.
+</return_format>
+
+<warnings>
+Be Careful To Ensure That The Stock Data Comes From A Reliable Financial Source, That Prices Are Accurate And Up To Date, And That The Scraper Avoids Detection And Anti-Bot Measures To Prevent Being Blocked.
+</warnings>
+
+<context>
+For Context: I'm Building A Stock Tracking Tool For Active Traders Who Need Real-Time Updates. We Want To Avoid API Costs, So We're Scraping Data Instead. The Scraper Needs To Be Efficient And Undetectable, While Still Getting Accurate Results.
+</context>

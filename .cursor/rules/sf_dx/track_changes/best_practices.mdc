@@ -1,0 +1,58 @@
+---
+description: Best practices for effective source tracking in Salesforce DX
+globs: 
+alwaysApply: false
+---
+ ---
+description: Best practices for effective source tracking in Salesforce DX
+globs: 
+alwaysApply: false
+---
+# Best Practices for Source Tracking
+
+## Overview
+Source tracking is a powerful feature in Salesforce DX, but it requires proper techniques to use effectively. This rule compiles best practices for working with source tracking in your Salesforce DX projects.
+
+## Key Concepts
+- Source tracking requires disciplined development processes
+- Optimizing source tracking improves development efficiency
+- Best practices help prevent common source tracking issues
+- Different project types may require different source tracking approaches
+
+## Detailed Sections
+### Development Workflow Optimization
+Learn how to structure your development workflow to maximize source tracking benefits.
+
+### Team Collaboration with Source Tracking
+Understand techniques for effective team collaboration using source tracking.
+
+### Performance Considerations
+Optimize source tracking for better performance, especially in large projects.
+
+### Troubleshooting Common Issues
+Solutions for common source tracking problems.
+
+## Code Examples
+```bash
+# Clear source tracking after major changes
+sf org reset source-tracking -o your-org-alias
+
+# Create reliable tracking state for deployment
+sf project deploy start -o your-org-alias --ignore-conflicts
+
+# Track deployment history
+sf project deploy report --verbose
+```
+
+## Best Practices
+1. Keep local project and org in sync frequently
+2. Use a consistent branching strategy with source tracking
+3. Reset source tracking when switching between major feature branches
+4. Document source tracking reset points in your project
+5. Combine source tracking with proper version control
+6. Consider using continuous integration to automate deployments
+7. Train team members on source tracking concepts and commands
+8. Create backup copies before making large-scale changes
+
+## Further Reading
+Refer to the official Salesforce DX documentation for additional best practices and advanced techniques for source tracking.
